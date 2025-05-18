@@ -84,7 +84,7 @@ mysql -u root -p -e "CREATE DATABASE zabbix;"
 ### 3. Dump data from zabbix.sql to 'zabbix' database in Slave
 
 ```sql
-mysql -u root -p zabbix < /root/zabbix.sql
+mysql -u root -p zabbix < /root/zabbix.sql;
 ```
 ### 4. Create Replica User (Optional if already created on Master)
 
